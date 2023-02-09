@@ -85,49 +85,6 @@
 			<PCU>10</PCU>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
-		<Definition>
-			<Id>
-				<TypeId>ConveyorConnector</TypeId>
-				<SubtypeId>ConveyorTubeSmall</SubtypeId>
-			</Id>
-			<Public>false</Public>
-			<DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
-			<Icon>..\2344068716\Textures\GUI\Icons\Cubes\ConveyorTubeSmall.dds</Icon>
-			<Description>Description_ConveyorTube</Description>
-			<CubeSize>Small</CubeSize>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="1"/>
-			<ModelOffset x="0" y="0" z="0"/>
-			<Model>..\2344068716\Models\Cubes\Small\ConveyorTube.mwm</Model>
-      <Components>
-				<Component Subtype="SteelPlate" Count="1" />
-				<Component Subtype="Motor" Count="1" />
-				<Component Subtype="Construction" Count="1" />
-      </Components>
-			<CriticalComponent Subtype="Motor" Index="0"/>
-			<MountPoints>
-				<MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.2" EndY="0.9" Default="true"/>
-				<MountPoint Side="Back" StartX="0.8" StartY="0.1" EndX="0.9" EndY="0.9"/>
-				<MountPoint Side="Back" StartX="0.2" StartY="0.1" EndX="0.8" EndY="0.2"/>
-				<MountPoint Side="Back" StartX="0.2" StartY="0.8" EndX="0.8" EndY="0.9"/>
-				<MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.2" EndY="0.9"/>
-				<MountPoint Side="Front" StartX="0.8" StartY="0.1" EndX="0.9" EndY="0.9"/>
-				<MountPoint Side="Front" StartX="0.2" StartY="0.1" EndX="0.8" EndY="0.2"/>
-				<MountPoint Side="Front" StartX="0.2" StartY="0.8" EndX="0.8" EndY="0.9"/>
-			</MountPoints>
-			<CriticalComponent Subtype="Construction" Index="0"/>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\ConveyorTubeConstruction_1.mwm"/>
-			</BuildProgressModels>
-			<BlockPairName>ConveyorTubeSmall</BlockPairName>
-			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>3</BuildTimeSeconds>
-			<EmissiveColorPreset>Default</EmissiveColorPreset>
-			<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
-			<DestroySound>PoofExplosionCat1</DestroySound>
-			<PCU>10</PCU>
-			<IsAirTight>false</IsAirTight>
-		</Definition>
 		<!-- #region Conveyor Adaptors -->
 		<Definition>
 			<Id>
