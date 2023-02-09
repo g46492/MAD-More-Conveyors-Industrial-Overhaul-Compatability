@@ -15,10 +15,9 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>..\1124114101\Models\Mafoo_Small_LongConveyorTube.mwm</Model>
 			<Components>
-				<Component Subtype="Construction" Count="40"/>
-				<Component Subtype="SteelPlate" Count="20"/>
-				<Component Subtype="Motor" Count="10"/>
-				<Component Subtype="SteelPlate" Count="20"/>
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="Motor" Count="10" />
+				<Component Subtype="Construction" Count="10" />
 			</Components>
 			<CriticalComponent Subtype="Motor" Index="0"/>
 			<MountPoints>
@@ -58,10 +57,9 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>..\1124114101\Models\Mafoo_Small_MediumConveyorTube.mwm</Model>
 			<Components>
-				<Component Subtype="Construction" Count="20"/>
-				<Component Subtype="SteelPlate" Count="10"/>
-				<Component Subtype="Motor" Count="5"/>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="5" />
+				<Component Subtype="Motor" Count="5" />
+				<Component Subtype="Construction" Count="5" />
 			</Components>
 			<CriticalComponent Subtype="Motor" Index="0"/>
 			<MountPoints>
@@ -94,17 +92,17 @@
 			</Id>
 			<Public>false</Public>
 			<DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
-			<Icon>..\1124114101\Textures\Icons\Mafoo_Small_ConveyorTube.dds</Icon>
-			<Description>Description_Mafoo_ConveyorTube</Description>
+			<Icon>..\2344068716\Textures\GUI\Icons\Cubes\ConveyorTubeSmall.dds</Icon>
+			<Description>Description_ConveyorTube</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>..\1124114101\Models\Mafoo_Small_ConveyorTube.mwm</Model>
+			<Model>..\2344068716\Models\Cubes\Small\ConveyorTube.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-        <Component Subtype="Motor" Count="1" />
-        <Component Subtype="Construction" Count="1" />
+				<Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="Motor" Count="1" />
+				<Component Subtype="Construction" Count="1" />
       </Components>
 			<CriticalComponent Subtype="Motor" Index="0"/>
 			<MountPoints>
@@ -119,7 +117,7 @@
 			</MountPoints>
 			<CriticalComponent Subtype="Construction" Index="0"/>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="..\1124114101\Models\Cubes\Small\ConveyorTubeConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\ConveyorTubeConstruction_1.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>ConveyorTubeSmall</BlockPairName>
 			<EdgeType>Light</EdgeType>

@@ -16,12 +16,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>..\1124114101\Models\LargeConveyorTubeLong.mwm</Model>
 			<Components>
+				<Component Subtype="SteelPlate" Count="100"/>
 				<Component Subtype="Construction" Count="200"/>
-				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="SmallTube" Count="120"/>
 				<Component Subtype="Motor" Count="60"/>
-				<Component Subtype="SmallTube" Count="200"/>
-				<Component Subtype="Construction" Count="100"/>
-				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="SteelPlate" Count="40"/>
 			</Components>
 			<CriticalComponent Subtype="Motor" Index="0"/>
 			<BuildProgressModels>
@@ -52,12 +51,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>..\1124114101\Models\LargeConveyorTubeMedium.mwm</Model>
 			<Components>
+				<Component Subtype="SteelPlate" Count="50"/>
 				<Component Subtype="Construction" Count="100"/>
-				<Component Subtype="SteelPlate" Count="50"/>
+				<Component Subtype="SmallTube" Count="60"/>
 				<Component Subtype="Motor" Count="30"/>
-				<Component Subtype="SmallTube" Count="100"/>
-				<Component Subtype="Construction" Count="50"/>
-				<Component Subtype="SteelPlate" Count="50"/>
+				<Component Subtype="SteelPlate" Count="20"/>
 			</Components>
 			<CriticalComponent Subtype="Motor" Index="0"/>
 			<BuildProgressModels>
